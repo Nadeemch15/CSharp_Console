@@ -11,6 +11,7 @@ namespace ConsoleApp1
         public CustomException(string message) : base (message)
         {
             Console.WriteLine("Changes");
+            Console.WriteLine("2nd line added");
         }
     }
 }
